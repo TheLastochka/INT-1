@@ -4,6 +4,10 @@
 - Запустить mysql
 - Создать базу данных `int_1_test_db`
 - `pip install -r requirements.txt`
+- В .env файле должны быть данне для подключения к БД:
+    - `HOST`
+    - `USERNAME`
+    - `PASSWORD`
 - `python main.py`
 - Запуск в дебаге: `DEGUB=1 python main.py`
 
